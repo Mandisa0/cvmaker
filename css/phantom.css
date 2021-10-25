@@ -1,0 +1,486 @@
+body {
+
+  font-family: arial;
+  margin: 0;
+  opacity: 0.9;
+  background-image: url("../images/scott-graham-OQMZwNd3ThU-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+@media screen and (min-width: 600px) {
+  div.mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.desktop {
+    display: none;
+  }
+}
+
+
+
+textarea.context {
+  border: 5px solid black;
+  border-radius: 0px;
+  padding: 5px;
+  width: 80%;
+  height: 50%;
+  text-align: center;
+}
+
+button.update {
+  width: 50%;
+  border: 0;
+  padding: 5;
+  background-color: white;
+  color: black;
+ border-radius: 0px;
+  border-top: 5px solid teal;
+  border-bottom: 5px solid teal;
+
+  transition: 0.2s;
+}
+
+button.update:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+p.header {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 5;
+  margin-bottom: 10;
+  padding-top: 10;
+  padding-bottom: 10;
+  color: black;
+  background-color: white;
+}
+
+h1.header {
+  
+ border-radius: 0px;
+  width: 90%;
+  margin-top: 5;
+  margin-bottom: 10;
+  padding-top: 20;
+  padding-bottom: 20;
+  padding-left: 10;
+  padding-right: 10;
+  color: black;
+  background-color: white;
+  border: 5px solid teal;
+
+}
+
+p.gen {
+  color: white;
+}
+
+h1.gen {
+  color: white;
+}
+
+h2.gen {
+  color: white;
+}
+
+h3.gen {
+  color: black;
+}
+
+p.gen_black {
+  color: black;
+}
+
+h1.gen_black {
+  color: black;
+}
+
+h2.gen_black{
+  color: black;
+}
+
+h3.gen_black {
+  color: black;
+}
+
+
+button.gen {
+  border: 5px solid teal;
+ border-radius: 0px;
+  background-color: white;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  transition: 0.2s;
+  width:115;
+
+}
+
+button.gen:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+button.gen1 {
+  border: 0px solid black;
+  border-top: 5px solid teal;
+  border-bottom: 5px solid teal;
+ border-radius: 0px;
+  background-color: white;
+  color:black;
+  padding-top: 10;
+  padding-bottom: 10;
+  padding-left: 0;
+  padding-right: 0;
+  transition: 0.2s;
+  width:120;
+
+}
+
+button.gen1:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+textarea {
+  border: 2px solid black;
+  border-radius: 0px;
+  margin-bottom: 20;
+  margin-top: -10;
+  width: 80%;
+  height: 70;
+  text-align: center;
+  transition: 0.2s;
+}
+
+textarea:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+input {
+  border: 2px solid teal;
+ border-radius: 0px;
+  margin-bottom: 20;
+  margin-top: -10;
+  width: 80%;
+  height: 70;
+  text-align: center;
+  transition: 0.2s;
+}
+
+input:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+input.search {
+  border: 5px solid black;
+ border-radius: 0px;
+  margin-bottom: 50;
+  margin-top: 10;
+  width: 60%;
+  height: 50;
+  text-align: center;
+  transition: 0.2s;
+}
+
+input.search:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+
+img.search{
+
+  width:25;
+  height: 25;
+  position: relative;
+  top:20;
+  left:10;
+  border: 5px solid black;
+ border-radius: 0px;
+  padding:10;
+  transition: 0.2s;
+
+}
+
+img.search:hover{
+
+  transform: scale(1.05);
+  transition: 0.2s;
+
+}
+
+div.container {
+
+  padding:5;
+  margin-top: 20;
+  margin-bottom: 20;
+ border-radius: 0px;
+  background-color: teal;
+  width: 70%;
+}
+
+div.container_content_inline {
+  margin: 20;
+  display: inline-block;
+  border: 5px solid black;
+  margin-top: 10;
+  margin-bottom: 50;
+  border-radius: 0px;
+  background-color: none;
+  padding: 100;
+  width: 300;
+}
+
+div.container_content_inline_mobile {
+  display: inline-block;
+  border: 5px solid black;
+  margin-top: 10;
+  margin-bottom: 50;
+  border-radius: 0px;
+  background-color: none;
+  padding: 0;
+  padding-top: 10;
+  padding-bottom: 10;
+  width: 300;
+}
+
+img.gen {
+  border-radius: 0px;
+  border: 0;
+  height: 275;
+  width: 275;
+}
+
+img.button {
+
+  transition: .2s;
+
+}
+
+img.button:hover {
+
+  transform: scale(1.1);
+  transition: .2s;
+
+}
+
+
+div.container_main {
+  display: inline-block;
+  border: 5px solid black;
+  margin-top: 0;
+  margin-bottom: 50;
+  border-radius: 0px;
+  background-color: none;
+  padding-top: 15;
+  padding-bottom: 15;
+  width: 95%;
+}
+
+div.container_form {
+  display: inline-block;
+  border: 0px solid black;
+  margin-top: 0;
+  margin-bottom: 50;
+  border-radius: 0px;
+  background-color: none;
+  padding: 20;
+  padding-top: 50;
+  padding-bottom: 100;
+  width: 80%;
+  background-color: white;
+}
+
+div.menu_desktop {
+  border-right: 0px solid white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: white;
+  z-index: 20;
+  width: 70vw;
+  height: 100%;
+  display: none;
+}
+
+div.menu {
+  margin-top: 0;
+  margin-bottom: -1;
+  border-top: 0px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
+  background-color: none;
+  transition: 0.2s;
+  color: white;
+}
+
+div.menu:hover {
+  filter: invert(20%);
+  transform: scale(.95);
+  transition: 0.2s;
+}
+
+h2.menu {
+  margin: 10;
+  margin-bottom: 5;
+  color: black;
+}
+
+h3.menu {
+  font-size: 15;
+  margin: 10;
+  margin-top: 15;
+  margin-bottom: 15;
+  color: black;
+}
+
+p.menu {
+  margin: 10;
+  margin-top: 15;
+  margin-bottom: 15;
+  color: black;
+  font-size: 18px;
+}
+
+div.menu_button {
+  border-radius: 0px;
+  margin: 10;
+  float: left;
+  background-color: white;
+  width: 50;
+  padding: 5;
+  transition: 0.2s;
+}
+
+div.menu_button:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+div.menu_button_bar {
+  width: 70%;
+  height: 5;
+  background-color: black;
+  margin: auto;
+  margin-top: 5;
+  margin-bottom: 5;
+}
+
+div.header {
+  background-color: white;
+  border-bottom: 0px solid black;
+}
+
+div.footer {
+  color:black;
+  background-color: white;
+  margin: 0;
+  margin-top: 200;
+  margin-bottom: -100;
+  width: 100%;
+  padding-top: 10;
+  padding-bottom: 10;
+}
+
+p.error{
+
+  text-decoration: none;
+  color:red;
+  font-size:17
+
+}
+
+a.clean{
+
+  color:black;
+  text-decoration: none;
+
+}
+
+div.pageNavHolder{
+
+  display:inline-block;
+  border:0;
+
+}
+
+div.pageButtonHolder{
+
+
+  display:inline-block;
+  border:0;
+
+}
+
+button.pageNavButton{
+
+  border-radius: 0px;
+  border: 5px solid black;
+  margin:5;
+  background-color: white;
+  width:50;
+  height:50;
+  color:black;
+  transition: .2s;
+
+}
+
+button.pageNavButton:hover{
+
+  transition: .2s;
+  color:white;
+  background-color:black;
+  transform: scale(1.1);
+
+}
+
+button.pageNavButtonActive{
+
+  background-color: black;
+  width:50;
+  height:50;
+  color:white;
+  border:0;
+  transition: .2s;
+
+}
+
+button.pageNavButtonActive:hover{
+
+  transition: .2s;
+  transform: scale(1.1);
+
+}
+
+iframe{
+
+  border-radius: 0px;
+  border: 5px solid black;
+
+}
+
+button.menu_link {
+
+  color:black;
+  border: 0;
+  border-bottom: 5px solid teal;
+  border-radius: 0px;
+  background-color: white;
+  padding: 10;
+  padding-left: 0;
+  padding-right: 0;
+  transition: 0.2s;
+}
+
+button.menu_link:hover {
+  transform: scale(1.10);
+  transition: 0.2s;
+}

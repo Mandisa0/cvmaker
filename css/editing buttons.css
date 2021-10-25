@@ -1,0 +1,138 @@
+@media screen and (min-width:600px){
+
+    div.mobile{
+
+        display:none;
+
+    }
+
+}
+
+@media screen and (max-width:600px){
+
+    div.desktop{
+
+        display:none;
+
+    }
+
+}
+
+div.buttons{
+
+    border:3px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width:230;
+    transition: .2s;
+    padding-top:7;
+    padding-bottom:25;
+
+}
+
+div.buttons:hover{
+
+    transform: scale(1.1);
+    transition: .2s;
+
+}
+
+
+div.editing_button{
+
+    display: inline-block;
+    transition: .2s;
+
+}
+
+div.editing_button:hover{
+
+
+    transform: scale(1.1);
+    transition: .2s;
+
+}
+
+div.editing_button2{
+
+    display: inline-block;
+    transition: .2s;
+
+}
+
+a{
+
+    color:black;
+    text-decoration: none;
+
+}
+
+button.gen{
+
+    border: 3px solid black;
+    border-radius: 2px;
+    background-color: white;
+    color:black;
+    width:100;
+    height:40;
+    margin:10;
+    transition:.2s;
+
+}
+
+button.gen:hover{
+
+    transform: scale(1.1);
+    transition:.2s;
+
+}
+
+img.edit{
+
+    border:3px solid black;
+    transition: .2s;
+    border-radius: 2px;
+
+}
+
+img.edit:hover{
+
+    transform: scale(1.1);
+    transition:.2s;
+
+}
+
+img.edit2{
+
+    border:0;
+    transition: .2s;
+
+}
+
+img.edit2:hover{
+
+    transform: scale(1.1);
+    transition:.2s;
+
+}
+
+img.edit3{
+
+    border:0;
+    transition: .2s;
+
+}
+
+img.edit4{
+
+    border:0;
+    transition: .2s;
+
+}
+
+img.edit4:hover{
+
+    transform: scale(1.1);
+    transition:.2s;
+
+}
